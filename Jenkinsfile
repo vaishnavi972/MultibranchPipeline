@@ -2,7 +2,7 @@ node('master')
 {
     stage('ContinuousDownload') 
     {
-      git 'https://github.com/vaishnavi972/MultibranchPipeline.git'
+      git 'https://github.com/vaishnavi972/Maven.git'
     }
     stage('ContinuousBuild') 
     {
